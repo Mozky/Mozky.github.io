@@ -1,3 +1,20 @@
+
+/*  Colors
+Black: #000000
+White #FFF
+White 87% #DEDEDE
+
+Grey:
+
+900: #919191
+950: #303030
+800: #424242
+
+
+*/
+
+
+
 html {
 	font-family: 'Roboto', 'Noto Sans', sans-serif;
 }
@@ -15,17 +32,27 @@ html {
 	justify-content: center;
 }
 
-#flexitem1 {
-	max-width: 50%;
-}
-
 #flexitem0 {
 	flex: 1 1 50%;
 	max-height: 150px;
 	max-width: 150px;
 }
 
+
+/*  *****************
+	*				*
+	*	 Navbar 	*
+	*				*
+	*****************/
 	
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
 
 /*  *****************
 	*				*
@@ -37,8 +64,8 @@ html {
 .hero {
 	margin: 0;
 	padding: 0;
-	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-	min-height: 100vh; /* These two lines are counted as one :-)       */
+	min-height: 100%;  /* For old browsers */
+	min-height: 100vh; 
 	text-align: center;
 	display: flex;
   	align-items: center;
@@ -46,11 +73,11 @@ html {
 }
 
 .content {
-	min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
-  	min-height: 50vh; /* These two lines are counted as one :-)       */
+	min-height: 50%;  /* For old browsers */
+  	min-height: 50vh; 
 	border-top: 5px solid #333;
 	border-bottom: 5px solid #333;
-	background-color: #999;
+	background-color: #303030;
 }
 
 
@@ -72,6 +99,13 @@ html {
 	font-size: 7.6vmax;
 	margin: 0;
 	width: 100%;
+}
+
+.phrase {
+	padding: 6vh;
+	color: #DEDEDE;
+	background-color: #424242;
+
 }
 
 #hero-img {
