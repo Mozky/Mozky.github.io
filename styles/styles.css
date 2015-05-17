@@ -88,7 +88,7 @@ html {
 	*****************/
 
 #hero1 {
-	background:url(http://www.spacetelescope.org/static/archives/images/wallpaper3/heic1501a.jpg);
+					  background:url(http://www.spacetelescope.org/static/archives/images/wallpaper3/heic1501a.jpg);
 	background-size:cover;
   	background-position:center center;
   	background-attachment:fixed;
@@ -99,6 +99,14 @@ html {
 	font-size: 7.6vmax;
 	margin: 0;
 	width: 100%;
+}
+
+.hero h1 span {
+	letter-spacing: 15px;
+	color: #DEDEDE;
+	font-size: 5.2vmax;
+	width: 100%;
+	font-weight: lighter;
 }
 
 .phrase {
