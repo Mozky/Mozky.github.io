@@ -2,83 +2,167 @@
 <html lang="es-MX">
 
 <head>
-	<!-- Metadata -->
-	<meta charset="UTF-8">
-	<meta name="author" content="Moz">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Moz">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!-- Bootstrap - Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Bootstrap - Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-	<!-- Normalize CDN -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css">
-	
-	<!--  jQuery -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	
-	<!-- Countdown script -->
-	<script src="js/countdown.js"></script>
+    <!-- Normalize CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css">
 
-	<!-- Google Fonts -->
-	<link href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-	<!-- Custom Styles -->
-	<link href="styles/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 
-	<!-- Webpage Title -->
-	<title>JavierSL Alpha</title>
+    <!-- Webpage Title -->
+    <title>JavierSL Alpha</title>
 
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-	<!-- Fixed bootstrap navbar -->
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">C</a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">L-A</a></li>
-					<li><a href="#">L</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">R</a></li>
-					<li class="active"><a href="#">R-A</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Javier</span> SL
+                </a>
+            </div>
 
-	<section class="container-fixed hero" id="hero1">
-		<h1>Javier SL<br><span>DEVELOPER</span></h1>
-	</section>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-	<section class="flexcontainer content">
-		<div class="flexitem0 phrase">
-			<h1>Why do humans do science? Why do they do art?</h1>
-			<em>The things that are least important for our survival are the very things that make us human.</em>
-			<p>— Savas Dimopoulos, in Particle Fever.</p>
-		</div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Javier SL</h1>
+                        <p class="intro-text">Hi, I'm a web developer.<br>With love from Mexico.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-	</section>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Me</h2>
+                <p>Bacon ipsum dolor amet beef short loin alcatra frankfurter short ribs tongue <a href="#">leberkas</a>. Salami alcatra hamburger biltong ribeye. Pork loin corned beef beef spare ribs boudin.</p>
+                <p>Filet mignon doner shoulder ball tip <a href="http://gratisography.com/">sirloin</a> jowl turkey t-bone beef ribs tri-tip <a href="http://snazzymaps.com/">sausage</a>.</p>
+            </div>
+        </div>
+    </section>
 
-	<section class="container-fluid hero" id="hero2">
-		<h1 id="time">28 days, 6 hours, 42 minutes, 12 seconds.</h1>
-	</section>
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Why do humans do science?<br> Why do they do art?</h2>
+                    <p>The things that are least important for our survival are the very things that make us human.</p>
+                    <em>— Savas Dimopoulos, in Particle Fever.</em><br>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<section class="container-fluid">
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact</h2>
+                <p>Feel free to email me regarding my work, or to just say hello!</p>
+                <p><a href="mailto:javiersuarezl@outlook.com">javiersuarezl at outlook.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/mozky" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mozky" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Mozky" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-	</section>
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Javier SL 2015</p>
+        </div>
+    </footer>
+
+    <!--  jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIRZBfl7Nopdq8CRcns8HOb4VyXSJZr8Y&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/script.js"></script>
+    
+    <!-- Countdown script -->
+    <script src="js/countdown.js"></script>
+<!--
+
+    <h1>Why do humans do science? Why do they do art?</h1>
+    <em>The things that are least important for our survival are the very things that make us human.</em>
+    <p>— Savas Dimopoulos, in Particle Fever.</p>
+
+    <h1 id="time">28 days, 6 hours, 42 minutes, 12 seconds. </h1>
+-->
 
 </body>
 
